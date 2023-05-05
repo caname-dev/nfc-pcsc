@@ -1,5 +1,5 @@
 {
-  "name": "nfc-pcsc",
+  "name": "@caname-dev/nfc-pcsc",
   "version": "0.0.5",
   "description": "Easy reading and writing NFC tags and cards",
   "keywords": [
@@ -40,7 +40,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "build:types": "tsc -d src/*.js --declaration --allowJs --emitDeclarationOnly --outDir types",
+    "build:types": "tsc -d src/*.js --declaration --skipLibCheck --allowJs --emitDeclarationOnly --outDir types",
     "example": "node -r @babel/register examples/read-write.js",
     "example-basic": "node -r @babel/register examples/basic.js",
     "example-from-readme-3": "node -r @babel/register examples/from-readme-3.js",
@@ -51,7 +51,7 @@
     "example-ndef": "node -r @babel/register examples/ndef.js",
     "example-uid-logger": "node -r @babel/register examples/uid-logger.js",
     "example-without-auto": "node -r @babel/register examples/without-auto.js",
-    "prepack": "yarn build && yarn test",
+    "prepack": "yarn build && yarn build:types && yarn test",
     "test": "cross-env NODE_ENV=test ava test/tests.js --verbose"
   },
   "dependencies": {
