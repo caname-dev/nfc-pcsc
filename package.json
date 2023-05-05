@@ -1,6 +1,6 @@
 {
   "name": "nfc-pcsc",
-  "version": "0.8.1",
+  "version": "0.0.5",
   "description": "Easy reading and writing NFC tags and cards",
   "keywords": [
     "arc122",
@@ -14,13 +14,13 @@
     "tag",
     "ultralight"
   ],
-  "homepage": "https://github.com/pokusew/nfc-pcsc#readme",
+  "homepage": "https://github.com/caname-dev/nfc-pcsc#readme",
   "bugs": {
-    "url": "https://github.com/pokusew/nfc-pcsc/issues"
+    "url": "https://github.com/caname-dev/nfc-pcsc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pokusew/nfc-pcsc.git"
+    "url": "https://github.com/caname-dev/nfc-pcsc.git"
   },
   "license": "MIT",
   "author": {
@@ -31,6 +31,10 @@
     {
       "name": "foxxyz",
       "url": "https://github.com/foxxyz"
+    },
+    {
+      "name": "mikana0918",
+      "url": "https://github.com/mikana0918"
     }
   ],
   "main": "dist/index.js",
