@@ -1,6 +1,6 @@
 {
   "name": "@caname-dev/nfc-pcsc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easy reading and writing NFC tags and cards",
   "keywords": [
     "arc122",
