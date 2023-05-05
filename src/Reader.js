@@ -1,6 +1,6 @@
 "use strict";
 
-import EventEmitter from 'events';
+const EventEmitter = require('events');
 import {
 	ConnectError,
 	DisconnectError,
