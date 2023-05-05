@@ -28,6 +28,6 @@ jobs:
             - run: yarn build
             - run: node test/_node-version-test.js
             - run: yarn test
-            - run: yarn publish
+            - run: npm publish
               env:
-                  NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+                  NODE_AUTH_TOKEN: ${{secrets.GH_ACCESS_TOKEN}}
