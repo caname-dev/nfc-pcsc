@@ -1,7 +1,6 @@
 "use strict";
 
 const EventEmitter = require('events');
-
 import pcsclite from '@pokusew/pcsclite';
 import Reader from './Reader';
 import ACR122Reader from './ACR122Reader';
