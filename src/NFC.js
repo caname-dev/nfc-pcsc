@@ -1,10 +1,10 @@
 "use strict";
 
+const EventEmitter = require('events');
+
 import pcsclite from '@pokusew/pcsclite';
-import EventEmitter from 'events';
 import Reader from './Reader';
 import ACR122Reader from './ACR122Reader';
-
 
 class NFC extends EventEmitter {
 
